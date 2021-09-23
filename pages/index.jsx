@@ -8,6 +8,42 @@ import Cta from "../components/Cta";
 import Footer from "../components/Footer";
 
 export default function Home() {
+  let pandas = Array(
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  );
+  let pandaImage = pandas[Math.floor(Math.random() * pandas.length)];
+
   return (
     <>
       <Head>
@@ -19,7 +55,7 @@ export default function Home() {
 
       <main className="subpixel-antialiased font-nunito selection:bg-yellow-300">
         <Navbar />
-        <Hero />
+        <Hero pandaImage={pandaImage} />
         <Gallery />
         <Stats />
         <Cta />
