@@ -1,7 +1,7 @@
 import { Fade, Bounce } from "react-reveal";
 
 const Hero = () => {
-  var pandas = Array(
+  let pandas = Array(
     1,
     2,
     3,
@@ -35,7 +35,7 @@ const Hero = () => {
     7,
     8
   );
-  var pandaImage = pandas[Math.floor(Math.random() * pandas.length)];
+  let pandaImage = pandas[Math.floor(Math.random() * pandas.length)];
 
   return (
     <section className="text-gray-600 font-nunito min-h-screen max-w-7xl mx-auto">
