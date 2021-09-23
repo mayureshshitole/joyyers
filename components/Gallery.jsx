@@ -7,9 +7,12 @@ const Gallery = () => {
             Some of our JOYFUL Moments!
           </h1>
           <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-justify first-letter:text-green-400 first-letter:font-extrabold capitalize">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. franzen you probably
-            haven't heard of them man bun deep jianbing selfies heirloom.
+            Memorable events dont just happen. its organized and planned by
+            the Experienced persons. and if you have such skill then you can be
+            a that. Event management has a solid reputation for being an amazing
+            business choice for the right people. Event planning business as it
+            keeps overheads down in those critical early stages of trading and
+            can maximize productivity if planned well.
           </p>
         </div>
         <div className="flex flex-wrap md:-m-2 -m-1">

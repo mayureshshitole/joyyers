@@ -60,7 +60,7 @@ const Cta = () => {
             submit
           </button>
           <p className="text-xs text-gray-500 mt-3">
-            Literally you probably haven't heard of them jean shorts.
+            Literally you are just one step away to make your event joyful.
           </p>
         </form>
       </div>
