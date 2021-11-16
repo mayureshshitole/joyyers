@@ -1,7 +1,42 @@
 import { Fade, Bounce } from "react-reveal";
 
-const Hero = ({pandaImage}) => {
-  
+const Hero = () => {
+  var pandas = Array(
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  );
+  var pandaImage = pandas[Math.floor(Math.random() * pandas.length)];
+
   return (
     <section className="text-gray-600 font-nunito min-h-screen max-w-7xl mx-auto">
       <div className="container mx-auto flex px-5 py-7 md:flex-row flex-col-reverse items-center">

@@ -10,6 +10,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+        <meta charSet="UTF-8" />
           <meta name="copyright" content="Joyyers | Mayuresh Shitole" />
           <meta
             name="author"
